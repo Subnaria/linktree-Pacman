@@ -1,6 +1,6 @@
 const profileData = {
     profileLink: "pacman.klaynight.fr", // Lien du profil 
-    profileImage: "https://cdn.discordapp.com/attachments/1331600541599535169/1335238338755563541/049aafc8c7cdfd94f1aae4474f8ab6ebc5_1080x1080.jpeg?ex=67a3659b&is=67a2141b&hm=1e09afa218a62e71ca042e63a03512bb5c9317fa07a7152e51f91653baf6c58e&", // Image de profil
+    profileImage: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/b1/05/53b105b6-7ef7-2441-bdcd-f21b3335121b/artwork.jpg/1200x630bb.jpg", // Image de profil
     profileIcon: "https://cdn-icons-png.flaticon.com/512/8633/8633238.png", // Icone derrière le profil
     profileSiteText: "Csc.Pacman", // Nom derrière le profil
     userName: "Csc.Pacman", // Nom affiché sur la page et dans le titre de l'onglet
