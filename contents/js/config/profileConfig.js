@@ -1,28 +1,22 @@
 const profileData = {
-    profileLink: "https://github.com", // Lien du profil 
-    profileImage: "https://avatars.githubusercontent.com/u/9919?s=200&v=4", // Image de profil
-    profileIcon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", // Icone derrière le profil
-    profileSiteText: "GitHub", // Nom derrière le profil
-    userName: "GitHub User", // Nom affiché sur la page et dans le titre de l'onglet
-    email: "user@github.com", // Adresse mail affichée sur la page
+    profileLink: "https://subnaria.github.io/Pacman_web/", // Lien du profil 
+    profileImage: "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/53/b1/05/53b105b6-7ef7-2441-bdcd-f21b3335121b/artwork.jpg/1200x630bb.jpg", // Image de profil
+    profileIcon: "https://cdn-icons-png.flaticon.com/512/8633/8633238.png", // Icone derrière le profil
+    profileSiteText: "Pacman Web Site", // Nom derrière le profil
+    userName: "Csc.Pacman", // Nom affiché sur la page et dans le titre de l'onglet
+    email: "csc.pacman@studio.klaynight.fr", // Addesse mail affichée sur la page // Adresse mail affichée sur la page
     links: [ // Liens affichés sur la page
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link1", text: "Link 1", name: "GitHub" },
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link2", text: "Link 2", name: "Discord" },
-        { icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png", url: "https://github.com/link3", text: "Link 3", name: "LinkedIn" },
+        { icon: "https://logo-marque.com/wp-content/uploads/2020/12/Discord-Logo.png", url: "https://discord.gg/NZc5PKwkAa", text: "Link 1", name: "Discord" },
+        { icon: "https://logo-marque.com/wp-content/uploads/2020/12/Discord-Logo.png", url: "https://discord.gg/h4E74mZvFY", text: "Link 2", name: "Discord" },
+        { icon: "https://logo-marque.com/wp-content/uploads/2020/12/Discord-Logo.png", url: "https://discord.gg/h4E74mZvFY", text: "Link 3", name: "Discord" },
     ],
     // Fond de la page si une liste est utilisée alors le fond sera via les couleurs que vous mettez dedans
     background: ["#FF5733", "#33FF57"], //"https://static.vecteezy.com/ti/vecteur-libre/p1/12697876-motif-geometriquele-continue-noir-et-blanc-motif-repetitif-monochrome-arriere-plan-abstrait-optique-tridimensionnel-avec-cubes-troues-vectoriel.jpg",
     degBackgroundColor: 45, // inclinaison du degradé
     profileHoverColor: "#7289DA", // Couleur de hover sur l'article (l'élément principal)
     neonColors: ["#7289DA", "#FF4500", "#00FF00", "#FFD700", "#FF69B4"], // Couleurs du neon de profil
-    iconUrl: "https://avatars.githubusercontent.com/u/9919?s=200&v=4", // Icone de l'onglet
-    description: "Mollit laboris cupidatat do enim nulla ex laborum. Nulla labore reprehenderit nisi non anim aute.", // Description affichée sur la page, display: none si vide
-    meta: {
-        title: "GitHub User - Linktree", // Titre de l'onglet
-        description: "Mollit laboris cupidatat do enim nulla ex laborum. Nulla labore reprehenderit nisi non anim aute.", // Description de l'onglet
-        keywords: "GitHub, User, Profile, Links, Website, Template, plinkk, klaynight", // Mots-clés de l'onglet
-        url: "https://github.com" // URL de l'onglet
-    },
+    iconUrl: "https://media.discordapp.net/attachments/1331600541599535169/1337128941546377387/ab67616d0000b273dc3e2814b407ab8912fe6094.png?ex=67a651de&is=67a5005e&hm=5e5b2e4dfc444d3f092f898e9d71e575747c260f392079000f32e0f3228b6353&=&format=webp&quality=lossless", // Icone de l'onglet
+    description: "Bienvenue sur mon Plinkk J'essaye d'apprendre le web !", // Description affichée sur la page, display: none si vide
     
     labels: [
         { data: "Developer", color: "#FF6384", fontColor: "#FFFFFF" },
@@ -39,7 +33,7 @@ const profileData = {
 
     backgroundSize : 50, // En pourcentage
     
-    selectedThemeIndex: 1,                   // Thème sélectionné            (voir ci-dessous)
+    selectedThemeIndex: 6,                   // Thème sélectionné            (voir ci-dessous)
 
     selectedAnimationIndex : 0,             // Animation de l'article       (voir ci-dessous)
     selectedAnimationButtonIndex : 10,       // Animation des boutons        (voir ci-dessous)
@@ -49,7 +43,7 @@ const profileData = {
     delayAnimationButton: 0.1,        // Délai de l'animation en secondes
 
     canvaEnable: 1, // 1 : Enable, 0 : Disable
-    selectedCanvasIndex: 12,          // Animation du canva (voir ci-dessous)
+    selectedCanvasIndex: 1,          // Animation du canva (voir ci-dessous)
 };
 //      Thèmes      \\
 // 0 : Grey Theme
